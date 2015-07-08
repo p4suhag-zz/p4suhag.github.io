@@ -1,24 +1,45 @@
-body{
-	margin: 0;
-	width: 100%;
-	height: 100%;
-    font-family: 'Kaushan Script', cursive;
+html {
+  height: 100%;
+  overflow: hidden;
 }
+
+body { 
+  margin:0;
+  padding:0;
+  perspective: 1px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+	
+  font-family: 'Kaushan Script', cursive;
+}
+
+
 
 .starter{
 	position: relative;
 	width: 100%;
 	height: 805px;
-	background: url("bg.jpg");
+	
 	background-size: cover;
 	background-position: center;
 	font-family: 'Kaushan Script', cursive;
-	
 	background-attachment: fixed;
 	
  }
 
- 
+
+
+#slide1{
+	
+	background: url("bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+ }
 
 #box1{
 	position: absolute;
@@ -54,19 +75,116 @@ body{
 
 
 
-.about{
+#slide2{
  	position: absolute;
     color: white;
     font-size: 25px;
     background-color: #E63B34;
     width: 100%;
-    height: 80%;
-       
+    height: 90%;
+    line-height: 20px;   
     background: url("fire.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+    
+}
+
+#box2{
+	position: absolute;
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    color: white; 
+    top: 15%;
+    z-index: 10;
+    line-height: 40px;
+    text-align: center;
+}
+
+#box2 p{
+	font-family: 'Courgette', cursive;
+}
+
+
+#slide3{
+ 	position: relative;
+    color: white;
+    font-size: 35px;
+    background-color: #E63B34;
+    width: 100%;
+    height: 80%;
+    top: 90%;   
+    background: url("skills.jpg");
+	
+	background-position: center;
+	background-attachment: fixed;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 
 }
 
 
+
+.circle{
+	position: absolute;
+	height: 120px;
+	width: 120px;
+	background: transparent;
+
+	text-align: center;
+	margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 50%;
+
+}
+
+
+
+#js{
+	position: absolute;
+    top: 40%;
+	left: 15%;
+}
+
+#html{
+	position: absolute;
+    top: 40%;
+	left: 25%;
+}
+#css{
+	position: absolute;
+    top: 40%;
+	left: 35%;
+}
+
+#arduino{
+	position: absolute;
+    top: 40%;
+	left: 45%;
+}
+
+#vhdl{
+	position: absolute;
+    top: 40%;
+	left: 55%;
+}
+
+#jquery{
+	position: absolute;
+    top: 40%;
+	left: 65%;
+}
+
+#c{
+	position: absolute;
+    top: 40%;
+	left: 75%;
+}
+
+
+.starter h2{
+	margin: 0;
+	text-align: center;
+	position: relative;
+	top: 10%;
+}
