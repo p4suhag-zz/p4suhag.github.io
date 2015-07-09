@@ -218,7 +218,9 @@ body {
 }
 
 #block1{
-	
+	background: url("work1.png");
+	background-size: cover;
+	background-position: center;
 	left: 10%;
 }
 
