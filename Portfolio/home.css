@@ -104,6 +104,7 @@ body {
 
 #box2 p{
 	font-family: 'Courgette', cursive;
+	//font-family: 'Jura',sans-serif;
 }
 
 
@@ -226,6 +227,9 @@ body {
 
 #block2{
     left: 40%;
+    background: url("work2.png");
+	background-size: cover;
+	background-position: center;
 }
 
 #block3{
@@ -290,4 +294,21 @@ body {
 	height: 100%;
     width: 100%;
 
+}
+
+
+#slide5 h3{
+	position: absolute;
+	font-family: 'Jura',sans-serif;
+	font-size: 25px;
+	top: 70%;
+	left: 40%;
+}
+
+#slide5 h4{
+	position: absolute;
+	font-family: 'Jura',sans-serif;
+	font-size: 25px;
+	top: 75%;
+	left: 42%;
 }
