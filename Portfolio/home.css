@@ -92,7 +92,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	box-shadow: inset 0 0 0 1000px rgba(105,2,14,.3);
+	box-shadow: inset 0 0 0 1000px rgba(79,54,7,.3);
     
 }
 
@@ -224,7 +224,7 @@ body {
     background: transparent; 
 	background-position: center;
 	background-attachment: fixed;
-    box-shadow: inset 0 0 0 1000px rgba(3,77,12,.3);
+    box-shadow: inset 0 0 0 1000px rgba(105,57,5,.2);
 
 }
 
