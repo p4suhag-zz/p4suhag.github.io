@@ -1,6 +1,7 @@
 html {
   height: 100%;
   overflow: hidden;
+  margin: 0;
 }
 
 body { 
@@ -13,7 +14,7 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   width: 100%;
-	
+  
   font-family: 'Kaushan Script', cursive;
   background: url("images/wood1.jpg");
   background-size: cover;
@@ -30,6 +31,7 @@ body {
 	
 	background-size: cover;
 	background-position: center;
+	
 	font-family: 'Kaushan Script', cursive;
 	background-attachment: fixed;
 	
@@ -56,6 +58,7 @@ body {
     z-index: 10;
     line-height: 40px;
     text-align: center;
+
 }
 
 #dp{
@@ -86,14 +89,15 @@ body {
     background-color: #E63B34;
     width: 100%;
     height: 90%;
-    line-height: 20px;
-    background: transparent;   
+    line-height: 15px;
+    background: transparent; 
+    text-align: center;  
     /*background: url("images/fire.jpg");*/
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	box-shadow: inset 0 0 0 1000px rgba(79,54,7,.3);
-    
+    font-family: "Oxygen";
 }
 
 #box2{
@@ -106,11 +110,26 @@ body {
     z-index: 10;
     line-height: 40px;
     text-align: center;
+        
 }
 
 #box2 p{
-	font-family: 'Courgette', cursive;
-	//font-family: 'Jura',sans-serif;
+    font-family: "Oxygen";
+    margin: 15px;
+    width: 90%;
+    margin-left: 6%;
+    
+	/*font-family: 'Courgette', cursive;
+	font-family: 'Jura',sans-serif;*/
+}
+#box2 h4{
+	margin-top: 0;
+	font-size: 32px;
+	margin-left: 3%;
+}
+#box2 h1{
+	margin: 20px;
+	margin-left: 5%;
 }
 
 
@@ -126,7 +145,7 @@ body {
 	background: transparent; 
 	background-position: center;
 	background-attachment: fixed;
-    
+    font-family: "Oxygen";
 
 }
 
@@ -225,7 +244,7 @@ body {
 	background-position: center;
 	background-attachment: fixed;
     box-shadow: inset 0 0 0 1000px rgba(105,57,5,.2);
-
+    font-family: "Oxygen";
 }
 
 
@@ -275,6 +294,7 @@ body {
 	background-position: center;
 	background-attachment: fixed;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    font-family: "Oxygen";
 
 }
 
