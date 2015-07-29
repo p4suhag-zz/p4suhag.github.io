@@ -24,22 +24,12 @@ body {
 
 
 
-.starter{
-	position: relative;
-	width: 100%;
-	height: 805px;
-	
-	background-size: cover;
-	background-position: center;
-	
-	font-family: 'Kaushan Script', cursive;
-	background-attachment: fixed;
-	
- }
-
-
 
 #slide1{
+	position: absolute;
+    width: 100%;
+	height: 800px;
+    top: 0%;
 	background: transparent;
 	/*background: url("images/wood.jpg");*/
 	background-size: cover;
@@ -48,16 +38,18 @@ body {
  }
 
 #box1{
-	position: absolute;
+	position: relative;
     width: auto;
     height: auto;
-    font-size: 30px;
+    font-size: 50px;
     color: white; 
-    top: 25%;
-    left: 25%;
+    top: 20%;
+    left: auto;
+    font-family: 'Kaushan Script', cursive;
     z-index: 10;
-    line-height: 40px;
+    line-height: 100px;
     text-align: center;
+    margin: 0;
 
 }
 
@@ -65,11 +57,12 @@ body {
 	position: absolute;
 	height: 150px;
 	width: 150px;
+	top: 85%;
+	left: 45%; 
 	background: url("images/dp.png");
 	background-size: cover;
 	background-position: center;
-	top: 87%;
-	left: 45%;
+	
 	z-index: 10;
 	margin: 40px 0px 0px 0px;
     border: 7px solid white;
@@ -84,11 +77,12 @@ body {
 
 #slide2{
  	position: absolute;
+ 	top: 800px;
     color: white;
     font-size: 25px;
     background-color: #E63B34;
     width: 100%;
-    height: 90%;
+    height: 720px;
     line-height: 15px;
     background: transparent; 
     text-align: center;  
@@ -98,6 +92,7 @@ body {
 	background-attachment: fixed;
 	box-shadow: inset 0 0 0 1000px rgba(79,54,7,.3);
     font-family: "Oxygen";
+
 }
 
 #box2{
@@ -107,7 +102,7 @@ body {
     font-size: 30px;
     color: white; 
     top: 15%;
-    z-index: 10;
+    
     line-height: 40px;
     text-align: center;
         
@@ -134,13 +129,13 @@ body {
 
 
 #slide3{
- 	position: relative;
+ 	position: absolute;
     color: white;
     font-size: 35px;
     background-color: #E63B34;
     width: 100%;
-    height: 90%;
-    top: 90%;   
+    height: 720px;
+    top: 1520px;   
     /*background: url("images/skills.jpg");*/
 	background: transparent; 
 	background-position: center;
@@ -150,13 +145,13 @@ body {
 }
 
 
-
 .circle{
 	position: absolute;
+	top: 5%;
 	height: 110px;
 	width: 110px;
 	background: transparent;
-
+    top: 10%;
 	text-align: center;
 	margin: 40px 0px 0px 0px;
     border: 7px solid white;
@@ -219,7 +214,7 @@ body {
 }
 
 
-.starter h2{
+h2{
 	margin: 0;
 	text-align: center;
 	position: relative;
@@ -231,20 +226,21 @@ body {
 
 
 #slide4{
- 	position: relative;
+ 	position: absolute;
     color: white;
     font-size: 35px;
     background-color: #E63B34;
     width: 100%;
-    height: 90%;
-    top: 90%;   
+    height: 720px;
+    top: 2240px;   
     /*background: url("images/walk.jpg");*/
 	text-align: center;
     background: transparent; 
 	background-position: center;
 	background-attachment: fixed;
     box-shadow: inset 0 0 0 1000px rgba(105,57,5,.2);
-    font-family: "Oxygen";
+    /*font-family: "Oxygen";*/
+    font-family: 'pf-din';
 }
 
 
@@ -281,21 +277,23 @@ body {
 }
 
 #slide5{
- 	position: relative;
+ 	position: absolute;
+ 	width: 100%;
+    height: 700px;
+    top: 2960px;
     color: white;
     font-size: 35px;
     background-color: #E63B34;
-    width: 100%;
-    height: 90%;
-    top: 90%;   
+       
     /*background: url("images/red.jpg");*/
 	text-align: center;
     background: transparent; 
 	background-position: center;
 	background-attachment: fixed;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-    font-family: "Oxygen";
-
+    /*font-family: "Oxygen";*/
+    font-family: 'pf-din';
+    overflow-y: hidden;
 }
 
 .connect{
@@ -311,28 +309,28 @@ body {
 #fb{
 	position: absolute;
 	top: 40%;
-	left: 20%;
+	left: 23%;
 	
 }
 
 #twitter{
 	position: absolute;
 	top: 40%;
-	left: 40%;
+	left: 38%;
     
 }
 
 #in{
 	position: absolute;
 	top: 40%;
-	left: 60%;
+	left: 55%;
    
 }
 
 #git{
 	position: absolute;
 	top: 40%;
-	left: 80%;
+	left: 70%;
    }
 
 .connect img{
@@ -344,17 +342,29 @@ body {
 
 
 #slide5 h3{
-	position: absolute;
+	position: relative;
 	font-family: 'Jura',sans-serif;
 	font-size: 25px;
-	top: 70%;
-	left: 40%;
+	top: 65%;
+	left: auto;
+
 }
 
 #slide5 h4{
-	position: absolute;
+	position: relative;
 	font-family: 'Jura',sans-serif;
 	font-size: 25px;
-	top: 75%;
-	left: 42%;
+	top: 64%;
+	left: auto;
+}
+
+
+@media (max-width: 1250) and (max-height: 550){
+    #box2{
+    	font-size: 20px;
+    }
+    #slide2{
+    	height: 120%;
+    }
+
 }
