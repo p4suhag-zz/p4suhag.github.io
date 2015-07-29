@@ -31,10 +31,7 @@ body {
 	height: 800px;
     top: 0%;
 	background: transparent;
-	/*background: url("images/wood.jpg");*/
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
+	
  }
 
 #box1{
@@ -86,10 +83,7 @@ body {
     line-height: 15px;
     background: transparent; 
     text-align: center;  
-    /*background: url("images/fire.jpg");*/
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
+    
 	box-shadow: inset 0 0 0 1000px rgba(79,54,7,.3);
     font-family: "Oxygen";
 
@@ -136,10 +130,9 @@ body {
     width: 100%;
     height: 720px;
     top: 1520px;   
-    /*background: url("images/skills.jpg");*/
+    
 	background: transparent; 
-	background-position: center;
-	background-attachment: fixed;
+
     font-family: "Oxygen";
 
 }
@@ -233,11 +226,10 @@ h2{
     width: 100%;
     height: 720px;
     top: 2240px;   
-    /*background: url("images/walk.jpg");*/
+    
 	text-align: center;
     background: transparent; 
-	background-position: center;
-	background-attachment: fixed;
+	
     box-shadow: inset 0 0 0 1000px rgba(105,57,5,.2);
     /*font-family: "Oxygen";*/
     font-family: 'pf-din';
@@ -284,12 +276,10 @@ h2{
     color: white;
     font-size: 35px;
     background-color: #E63B34;
-       
-    /*background: url("images/red.jpg");*/
+    
 	text-align: center;
     background: transparent; 
-	background-position: center;
-	background-attachment: fixed;
+	
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
     /*font-family: "Oxygen";*/
     font-family: 'pf-din';
@@ -316,7 +306,7 @@ h2{
 #twitter{
 	position: absolute;
 	top: 40%;
-	left: 38%;
+	left: 39%;
     
 }
 
@@ -358,13 +348,111 @@ h2{
 	left: auto;
 }
 
-
-@media (max-width: 1250) and (max-height: 550){
-    #box2{
-    	font-size: 20px;
-    }
-    #slide2{
-    	height: 120%;
+/* Responsive Design for Slide3 */
+@media screen and (max-width: 1350px){
+    .circle{
+    	height: 80px;
+    	width: 80px;
     }
 
 }
+
+@media screen and (max-width: 1000px){
+	#html,#arduino,#jquery{
+		top: 30%;
+	}
+	#js,#css,#electro,#c{
+		top: 45%;
+	}
+	#dp{
+		left: 40%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.circle{
+		height: 70px;
+		width: 70px;
+	}
+
+	#html{
+		top: 45%;
+        left: 20%;
+	}
+	#jquery{
+		top: 45%;
+		left: 70%;
+	}
+	#css{
+		top: 45%;
+		left: 45%;
+	}
+	#js,#electro,#c{
+		top: 60%;
+	}
+	#electro{
+		left: 45%;
+	}
+    #box2{
+    	font-size: 25px;
+    }
+    #box1{
+    	top: 8%;
+    }
+}
+
+/* Responsive Design for Slide5 */
+
+@media screen and (max-width: 600px){
+	.connect{
+		height: 70px;
+		width: 70px;
+
+	}
+	#twitter{
+		top: 33%;
+		left: 47%;
+	}
+	#fb{
+		top: 47%;
+		left: 20%;
+	}
+	#in{
+		top: 47%;
+		left: 47%;
+	}
+	#git{
+		top: 47%;
+		left: 73%;
+	}
+	#dp{
+		left: 36%;
+		height: 120px;
+		width: 120px;
+
+	}
+	#box1{
+		font-size: 40px;
+		top: 13%;
+	}
+}
+
+@media screen and (max-width: 700px){
+	#box1{
+		top: 15%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#box1{
+		font-size: 35px;
+		top: 5%;
+	}
+}
+
+
+
+
+
+
+
