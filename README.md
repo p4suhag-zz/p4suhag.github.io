@@ -1,3 +1,7 @@
-# Playstation
+#Portfolio design using only HTML|CSS
 
-This Repo contain some simple projects on Web-designing and Robotics.
+##Boosting my designing skills
+
+###Responsive web page | single page website
+
+This Repo contains a single page responsive web page.....
