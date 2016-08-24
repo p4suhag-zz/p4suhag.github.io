@@ -1,7 +1,8 @@
 html {
   height: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin: 0;
+  padding: 0;
 }
 
 body { 
@@ -11,448 +12,66 @@ body {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
   width: 100%;
-  
-  font-family: 'Kaushan Script', cursive;
-  background: url("images/wood1.jpg");
+  background-color: #FFF;
+  font-family: 'Patua One', cursive;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.red-color {
+  color: red;
+}
+.home-page {
+	width: 100%;
+	height: 100%;
+	color: #000;
+}
+.home-desc {
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  float: left;
+}
+.home-desc-about {
+  max-width: 400px;
+  height: auto;
+  margin: auto;
+  margin-left: 20%;
+  position: relative;
+  top: 30%;
+  letter-spacing: 3px;
+}
+.title-name {
+  font-size: 1.3em;
+}
+.font-big {
+  font-size: 2.8em;
+}
+.home-gallery {
+  width: 40%;
+  height: 100%;
+  float: right;
+}
+.home-gallery-box {
+  margin: 0;
+  background-image: url("./images/p5.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
 }
-
-
-
-
-#slide1{
-	position: absolute;
-    width: 100%;
-	height: 800px;
-    top: 0%;
-	background: transparent;
-	
- }
-
-#box1{
-	position: relative;
-    width: auto;
-    height: auto;
-    font-size: 50px;
-    color: white; 
-    top: 20%;
-    left: auto;
-    font-family: 'Kaushan Script', cursive;
-    z-index: 10;
-    line-height: 100px;
-    text-align: center;
-    margin: 0;
-
+.home-image {
+  width: 180px;
+  height: 200px;
+  background-color: red;
+  margin: 10px auto;
+  /*-webkit-filter: grayscale(0.7);
+  filter: grayscale(0.7);*/
 }
-
-#dp{
-	position: absolute;
-	height: 150px;
-	width: 150px;
-	top: 85%;
-	left: 45%; 
-	background: url("images/dp.png");
-	background-size: cover;
-	background-position: center;
-	
-	z-index: 10;
-	margin: 40px 0px 0px 0px;
-    border: 7px solid white;
-    border-radius: 50%;
-        
-}
-
-
-
-
-
-
-#slide2{
- 	position: absolute;
- 	top: 800px;
-    color: white;
-    font-size: 25px;
-    background-color: #E63B34;
-    width: 100%;
-    height: 720px;
-    line-height: 15px;
-    background: transparent; 
-    text-align: center;  
-    
-	box-shadow: inset 0 0 0 1000px rgba(79,54,7,.3);
-    font-family: "Oxygen";
-
-}
-
-#box2{
-	position: absolute;
-    width: auto;
-    height: auto;
-    font-size: 30px;
-    color: white; 
-    top: 15%;
-    
-    line-height: 40px;
-    text-align: center;
-        
-}
-
-#box2 p{
-    font-family: "Oxygen";
-    margin: 15px;
-    width: 90%;
-    margin-left: 6%;
-    
-	/*font-family: 'Courgette', cursive;
-	font-family: 'Jura',sans-serif;*/
-}
-#box2 h4{
-	margin-top: 0;
-	font-size: 32px;
-	margin-left: 3%;
-}
-#box2 h1{
-	margin: 20px;
-	margin-left: 5%;
-}
-
-
-#slide3{
- 	position: absolute;
-    color: white;
-    font-size: 35px;
-    background-color: #E63B34;
-    width: 100%;
-    height: 720px;
-    top: 1520px;   
-    
-	background: transparent; 
-
-    font-family: "Oxygen";
-
-}
-
-
-.circle{
-	position: absolute;
-	top: 5%;
-	height: 110px;
-	width: 110px;
-	background: transparent;
-    top: 10%;
-	text-align: center;
-	margin: 40px 0px 0px 0px;
-    border: 7px solid white;
-    border-radius: 50%;
-    overflow: hidden;
-    background-size: contain;
-}
-
-
-
-
-
-#js{
-	position: absolute;
-    top: 40%;
-	left: 15%;
-    background-image: url("skills/js1.png");
-}
-
-#html{
-	position: absolute;
-    top: 40%;
-	left: 25%;
-    background-image: url("skills/html5.png");
-}
-#css{
-	position: absolute;
-    top: 40%;
-	left: 35%;
-    background-image: url("skills/css3.png");
-}
-
-#arduino{
-	position: absolute;
-    top: 40%;
-	left: 45%;
-	background-image: url("skills/ard.png");
-	
-}
-
-#electro{
-	position: absolute;
-    top: 40%;
-	left: 55%;
-    background-image: url("skills/chip.png");
-}
-
-#jquery{
-	position: absolute;
-    top: 40%;
-	left: 65%;
-    background-image: url("skills/jquery.png");
-}
-
-#c{
-	position: absolute;
-    top: 40%;
-	left: 75%;
-    background-image: url("skills/c2.png");
-}
-
-
-h2{
-	margin: 0;
-	text-align: center;
-	position: relative;
-	top: 10%;
-
-}
-
-
-
-
-#slide4{
- 	position: absolute;
-    color: white;
-    font-size: 35px;
-    background-color: #E63B34;
-    width: 100%;
-    height: 720px;
-    top: 2240px;   
-    
-	text-align: center;
-    background: transparent; 
-	
-    box-shadow: inset 0 0 0 1000px rgba(105,57,5,.2);
-    /*font-family: "Oxygen";*/
-    font-family: 'pf-din';
-}
-
-
-
-.block{
-	position: absolute;
-	height: 30%;
-	width: 20%;
-	border: 4px solid white;
-	top: 30%;
-}
-
-#block1{
-	background: url("images/work1.png");
-	
-	background-size: cover;
-	background-position: center;
-	left: 10%;
-	
-}
-
-
-
-#block2{
-    left: 40%;
-    background: url("images/work2.png");
-    
-	background-size: cover;
-	background-position: center;
-}
-
-#block3{
-	left: 70%;
-}
-
-#slide5{
- 	position: absolute;
- 	width: 100%;
-    height: 700px;
-    top: 2960px;
-    color: white;
-    font-size: 35px;
-    background-color: #E63B34;
-    
-	text-align: center;
-    background: transparent; 
-	
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-    /*font-family: "Oxygen";*/
-    font-family: 'pf-din';
-    overflow-y: hidden;
-}
-
-.connect{
-	position: absolute;
-	
-	height: 80px;
-    width: 80px;
-    border: 2px solid white;
-    border-radius: 50%;
-    background-color: white;
-}
-
-#fb{
-	position: absolute;
-	top: 40%;
-	left: 23%;
-	
-}
-
-#twitter{
-	position: absolute;
-	top: 40%;
-	left: 39%;
-    
-}
-
-#in{
-	position: absolute;
-	top: 40%;
-	left: 55%;
-   
-}
-
-#git{
-	position: absolute;
-	top: 40%;
-	left: 70%;
-   }
-
-.connect img{
-	height: 100%;
-    width: 100%;
-
-}
-
-
-
-#slide5 h3{
-	position: relative;
-	font-family: 'Jura',sans-serif;
-	font-size: 25px;
-	top: 65%;
-	left: auto;
-
-}
-
-#slide5 h4{
-	position: relative;
-	font-family: 'Jura',sans-serif;
-	font-size: 25px;
-	top: 64%;
-	left: auto;
-}
-
-/* Responsive Design for Slide3 */
-@media screen and (max-width: 1350px){
-    .circle{
-    	height: 80px;
-    	width: 80px;
-    }
-
-}
-
-@media screen and (max-width: 1000px){
-	#html,#arduino,#jquery{
-		top: 30%;
-	}
-	#js,#css,#electro,#c{
-		top: 45%;
-	}
-	#dp{
-		left: 40%;
-	}
-}
-
-@media screen and (max-width: 500px){
-	.circle{
-		height: 70px;
-		width: 70px;
-	}
-
-	#html{
-		top: 45%;
-        left: 20%;
-	}
-	#jquery{
-		top: 45%;
-		left: 70%;
-	}
-	#css{
-		top: 45%;
-		left: 45%;
-	}
-	#js,#electro,#c{
-		top: 60%;
-	}
-	#electro{
-		left: 45%;
-	}
-    #box2{
-    	font-size: 25px;
-    }
-    #box1{
-    	top: 8%;
-    }
-}
-
-/* Responsive Design for Slide5 */
-
-@media screen and (max-width: 600px){
-	.connect{
-		height: 70px;
-		width: 70px;
-
-	}
-	#twitter{
-		top: 33%;
-		left: 47%;
-	}
-	#fb{
-		top: 47%;
-		left: 20%;
-	}
-	#in{
-		top: 47%;
-		left: 47%;
-	}
-	#git{
-		top: 47%;
-		left: 73%;
-	}
-	#dp{
-		left: 36%;
-		height: 120px;
-		width: 120px;
-
-	}
-	#box1{
-		font-size: 40px;
-		top: 13%;
-	}
-}
-
-@media screen and (max-width: 700px){
-	#box1{
-		top: 15%;
-	}
-}
-
-@media screen and (max-width: 400px){
-	#box1{
-		font-size: 35px;
-		top: 5%;
-	}
-}
-
-
-
-
-
 
 
