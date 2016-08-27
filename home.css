@@ -37,6 +37,7 @@ body {
   top: 10px;
   right: 30px;
   color: #1A0C62;
+  z-index: 1;
 }
 .inline-me {
   display: inline-block;
@@ -45,6 +46,10 @@ li {
   margin: 0 5px;
   padding: 8px;
   font-size: 1.3em;
+}
+.li-style-on:hover {
+  border-bottom: solid 1px red;
+  cursor: pointer;
 }
 .home-desc {
   width: 55%;
@@ -82,5 +87,78 @@ li {
   width: 100%;
 }
 
+/*-----[ style the connect box ]------*/
+.connect {
+  width: 45%;
+  height: 100%;
+  position: fixed;
+  left: 100%;
+  background-color: #FBFBE4;
+}
+.connect-holder {
+  width: 280px;
+  height: 420px;
+  position: relative;
+  top: 26%;
+  margin: auto;
+  background-color: #fff;
+  color: #555;
+  border-radius: 5px;
+  -webkit-transition: width 0.7s, top 0.7s;
+  transition: width 0.7s, top 0.7s; 
+}
+.connect-image {
+  width: 280px;
+  height: 400px;
+  position: relative;
+  top: -30px;
+  margin: auto;
+  border-radius: 4px;
+  background-image: url('./images/ps20.jpg');
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: top 0.7s, left 4s;
+  transition: top 0.7s, left 4s;
+  z-index: 3;
+}
+.phone-me {
+  position: relative;
+  top: 90%;
+}
+.phone-me li {
+  float: right;
+  list-style-type: none;
+  color: #fff;
+  font-weight: 700;
+}
+.connect-holder:hover {
+  /*width: 320px;*/
+  top: 30%;
+}
+.connect-holder:hover .connect-image {
+  top: -150px;
+  /*left: 70px;*/
+}
+.social-link {
+  width: 250px;
+  margin: auto;
+  position: relative;
+  top: -95px;
+  text-align: center;
+}
+.social-link p {
+  font-size: 0.9em;
+  letter-spacing: 1.6px;
+  margin-bottom: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.social-link li {
+  display: inline-block;
+  list-style-type: none;
+}
+.social-link img {
+  width: 20px;
+  height: 20px;
 
-
+}
