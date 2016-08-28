@@ -128,8 +128,13 @@ li {
 .phone-me li {
   float: right;
   list-style-type: none;
-  color: #fff;
+  color: #FBFBE4;
   font-weight: 700;
+  font-size: 1.1em;
+}
+.phone-me img {
+  height: 15px;
+  width: 15px;
 }
 .connect-holder:hover {
   /*width: 320px;*/
@@ -160,5 +165,17 @@ li {
 .social-link img {
   width: 20px;
   height: 20px;
-
 }
+
+/*----[ work page ]-----*/
+.work-page {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 4;
+}
+
+
+
