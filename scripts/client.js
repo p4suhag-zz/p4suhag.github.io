@@ -16,4 +16,9 @@ $('.js-home-bar').click(function() {
         opacity: '1'
     },700);
 });
-
+$('.js-work-bar').click(function() {
+    $('.work-page').css('visibility', 'visible');
+});
+$('.js-close-button').click(function() {
+    $('.work-page').css('visibility', 'hidden');
+});

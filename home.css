@@ -82,7 +82,7 @@ li {
 }
 .home-gallery-box {
   margin: 0;
-  background-image: url("./images/roar.jpeg");
+  background-image: url("./images/ps1.jpg");
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -116,7 +116,7 @@ li {
   top: -30px;
   margin: auto;
   border-radius: 4px;
-  background-image: url('./images/rise.gif');
+  background-image: url('./images/ps20.jpg');
   background-size: cover;
   background-position: center;
   -webkit-transition: top 0.7s, left 4s;
@@ -150,7 +150,7 @@ li {
   width: 250px;
   margin: auto;
   position: relative;
-  top: -95px;
+  top: -75px;
   text-align: center;
 }
 .social-link p {
@@ -179,6 +179,14 @@ li {
   z-index: 4;
   overflow: scroll;
   text-align: justify;
+  visibility: hidden;
+}
+.close-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  height: 20px;
+  width: 20px;
 }
 .geekfunnel-container, .weaponx-container {
   width: 90%;
@@ -188,11 +196,17 @@ li {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /*-webkit-box-shadow: 0 15px 20px rgba(0,0,0,0.2);*/
 }
-.geekfunnel-about {
+.project-about {
   width: 55%;
   margin: 55% auto;
 }
-.work-page p:first-child:first-letter { 
+.project-about a {
+  text-decoration: none;
+}
+.project-about a  p {
+  margin-top: 30px;
+}
+.big-letter:first-letter { 
   float: left; 
   color: #f00; 
   font-size: 55px; 
