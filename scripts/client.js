@@ -4,7 +4,7 @@ $('.js-connect-bar').click(function() {
         left: '55%'
     }, 800);
     $('.home-gallery-box').animate({
-        opacity: '0.4'
+        opacity: '0'
     },500);
 });
 $('.js-home-bar').click(function() {
