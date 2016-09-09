@@ -14,12 +14,13 @@ $('.js-home-bar').click(function() {
     }, 1000);
     $('.home-gallery').animate({
         opacity: '1'
-    },1100);
+    },1800);
 });
 $('.js-work-bar').click(function() {
-    $('.work-page').css('visibility', 'visible');
-    $('.project-about').animate({
-        opacity: '1'
+    $('.js-work-page').css('visibility', 'visible');
+    $('.js-geek-about').animate({
+        opacity: '1',
+        top: '0'
     },900);
     $('.geekfunnel-coverpic').animate({
         left: '0',
@@ -29,3 +30,30 @@ $('.js-work-bar').click(function() {
 $('.js-close-button').click(function() {
     $('.work-page').css('visibility', 'hidden');
 });
+
+$('.js-work-page').scroll(function(){
+   var pageScroll = $('.js-work-page').scrollTop(),
+       geeksubposition = $('.geekfunnel-subcontainer').offset().top;
+
+    // var docScroll = $(this).scrollTop(), 
+    //     boxCntOfset = $(".box-container").offset().top - 100;
+    
+    // console.log(docScroll);
+    // console.log(pageScroll);
+    // console.log(geeksubposition);
+    if (pageScroll >= geeksubposition) {
+        console.log('hello');
+        $('.geekfunnel-pic').animate({
+            opacity: '1'
+        },1100);
+    }
+    //when rich top of boxex than fire
+    // if(docScroll >= boxCntOfset ) {
+
+    //   $("#first").fadeIn(200)
+    
+    // } else {
+    //  $("#first").fadeOut(200)
+    
+    // }
+}) 
