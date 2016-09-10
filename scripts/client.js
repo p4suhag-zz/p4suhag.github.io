@@ -1,7 +1,8 @@
 var hometitlename = $('.title-name').html(),
     aboutdesc = $('.font-big').html(),
     resumelink = $('.resume-link').html(),
-    personallink = '<a href="https://www.facebook.com/psuhag1" class="style-none" target="_blank">facebook</a> | <a href="https://twitter.com/p4suhag" class="style-none" target="_blank">twitter</a> | <a href="https://github.com/p4suhag" class="style-none" target="_blank">github</a> | <a href="mailto:p4suhag@gmail.com" class="style-none" target="_blank">email</a>'
+    personallink = '<a href="https://www.facebook.com/psuhag1" class="style-none" target="_blank">facebook</a> | <a href="https://twitter.com/p4suhag" class="style-none" target="_blank">twitter</a> | <a href="https://github.com/p4suhag" class="style-none" target="_blank">github</a> | <a href="mailto:p4suhag@gmail.com" class="style-none">email</a><span>Dial - 9821063260</span>',
+    personallinkimg = '<a href="https://www.facebook.com/psuhag1"><img src="images/fb.svg"><a href="https://twitter.com/p4suhag"><img src="images/twtr.svg"></a><a href="https://github.com/p4suhag"><img src="images/github.svg"></a><a href="mailto:p4suhag@gmail.com"><img src="images/mail.svg"></a>';
 
 $('.js-connect-bar').click(function() {
     $('.js-home-desc-about').animate({
@@ -10,7 +11,7 @@ $('.js-connect-bar').click(function() {
     setTimeout(function() {
         $('.title-name').text('Say Hello !');
         $('.font-big').text("If you think I am suitable for your project or if you'd just like to say hello, feel free to get in touch.");
-        $('.resume-link').html(personallink);
+        $('.resume-link').html(personallinkimg);
     },700);
     $('.js-home-desc-about').animate({
         opacity: '1'
