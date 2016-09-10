@@ -2,14 +2,14 @@ var hometitlename = $('.title-name').html(),
     aboutdesc = $('.font-big').html(),
     resumelink = $('.resume-link').html(),
     personallink = '<a href="https://www.facebook.com/psuhag1" class="style-none" target="_blank">facebook</a> | <a href="https://twitter.com/p4suhag" class="style-none" target="_blank">twitter</a> | <a href="https://github.com/p4suhag" class="style-none" target="_blank">github</a> | <a href="mailto:p4suhag@gmail.com" class="style-none">email</a><span>Dial - 9821063260</span>',
-    personallinkimg = '<a href="https://www.facebook.com/psuhag1"><img src="images/fb.svg"><a href="https://twitter.com/p4suhag"><img src="images/twtr.svg"></a><a href="https://github.com/p4suhag"><img src="images/github.svg"></a><a href="mailto:p4suhag@gmail.com"><img src="images/mail.svg"></a>';
+    personallinkimg = '<a href="https://www.facebook.com/psuhag1"><img src="images/fb.svg"><a href="https://twitter.com/p4suhag"><img src="images/twtr.svg"></a><a href="https://github.com/p4suhag"><img src="images/github.svg"></a><a href="mailto:p4suhag@gmail.com"><img src="images/mail.svg"></a><img src="images/phone.svg" class="phone-icon" style="padding: 5.5px; margin-right: 0;"><a class="phone-no">+91-9821063260</a>';
 
 $('.js-connect-bar').click(function() {
     $('.js-home-desc-about').animate({
         opacity: '0'
     }, 700);
     setTimeout(function() {
-        $('.title-name').text('Say Hello !');
+        $('.title-name').text('Say Hello!');
         $('.font-big').text("If you think I am suitable for your project or if you'd just like to say hello, feel free to get in touch.");
         $('.resume-link').html(personallinkimg);
     },700);
@@ -30,6 +30,7 @@ $('.js-home-bar').click(function() {
         opacity: '1'
     }, 800);
 });
+
 // $('.js-home-bar').click(function() {
 //     $('.js-connect').animate({
 //         // box-shadow: -2px 0px 2px 0 rgba(10, 10, 10, 0.1),
@@ -56,11 +57,11 @@ $('.js-close-button').click(function() {
 
 $('.js-work-page').scroll(function(){
    var pageScroll = $('.js-work-page').scrollTop(),
-       geeksubposition = $('.geekfunnel-subcontainer').offset().top,
+       geeksubposition = $('.js-geekfunnel-coverpic').offset().top,
        weaponxsubposition = $('.weaponx-container').offset().top;
 
     
-    if (pageScroll >= geeksubposition) {
+    if (pageScroll >= geeksubposition + 200) {
         console.log('hello');
         $('.js-geeksubpic1').animate({
             opacity: '1',
@@ -71,7 +72,7 @@ $('.js-work-page').scroll(function(){
             left: '0'
         },1300);
     }
-    if (pageScroll >= geeksubposition + 400) {
+    if (pageScroll >= geeksubposition + 1200) {
         console.log('hello');
         $('.js-geeksubpic2').animate({
             opacity: '1',

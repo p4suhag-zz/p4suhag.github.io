@@ -119,10 +119,10 @@ li {
     float: left;
     position: relative;
     /*background-color: #EDEDED;*/
-    background: url(./images/ps0.jpg);
+    background: url(./images/ps00.jpg);
     background-position: center;
     background-size: cover;
-    /*-webkit-filter: grayscale(1);*/
+    -webkit-filter: grayscale(1);
 }
 
 .home-gallery-box {
@@ -386,7 +386,16 @@ li {
     float: right;
     margin-right: 25px;
 }
-
-
-
+.phone-no {
+    position: relative;
+    top: -7.5px;
+    padding-left: 15px;
+    visibility: hidden;
+}
+.phone-no:hover {
+    visibility: visible;
+}
+.phone-icon:hover + .phone-no{
+    visibility: visible;
+}
 
