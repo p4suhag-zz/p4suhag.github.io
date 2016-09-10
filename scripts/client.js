@@ -1,12 +1,34 @@
-// $('.js-connect-bar').click(function() {
-//     $('.js-connect').animate({
-//         // box-shadow: -2px 0px 2px 0 rgba(10, 10, 10, 0.1),
-//         left: '55%'
-//     }, 1100);
-//     $('.home-gallery').animate({
-//         opacity: '0'
-//     },700);
-// });
+var hometitlename = $('.title-name').html(),
+    aboutdesc = $('.font-big').html(),
+    resumelink = $('.resume-link').html(),
+    personallink = '<a href="https://www.facebook.com/psuhag1" class="style-none" target="_blank">facebook</a> | <a href="https://twitter.com/p4suhag" class="style-none" target="_blank">twitter</a> | <a href="https://github.com/p4suhag" class="style-none" target="_blank">github</a> | <a href="mailto:p4suhag@gmail.com" class="style-none" target="_blank">email</a>'
+
+$('.js-connect-bar').click(function() {
+    $('.js-home-desc-about').animate({
+        opacity: '0'
+    }, 700);
+    setTimeout(function() {
+        $('.title-name').text('Say Hello !');
+        $('.font-big').text("If you think I am suitable for your project or if you'd just like to say hello, feel free to get in touch.");
+        $('.resume-link').html(personallink);
+    },700);
+    $('.js-home-desc-about').animate({
+        opacity: '1'
+    }, 800);
+});
+$('.js-home-bar').click(function() {
+    $('.js-home-desc-about').animate({
+        opacity: '0'
+    }, 700);
+    setTimeout(function() {
+        $('.title-name').text(hometitlename);
+        $('.font-big').text(aboutdesc);
+        $('.resume-link').html(resumelink);
+    },700);
+    $('.js-home-desc-about').animate({
+        opacity: '1'
+    }, 800);
+});
 // $('.js-home-bar').click(function() {
 //     $('.js-connect').animate({
 //         // box-shadow: -2px 0px 2px 0 rgba(10, 10, 10, 0.1),
