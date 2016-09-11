@@ -398,7 +398,7 @@ li {
 .phone-no:hover {
     visibility: visible;
 }
-.phone-icon:hover + .phone-no{
+.phone-icon-box:hover + .phone-no{
     visibility: visible;
 }
 

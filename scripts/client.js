@@ -2,7 +2,7 @@ var hometitlename = $('.title-name').html(),
     aboutdesc = $('.font-big').html(),
     resumelink = $('.resume-link').html(),
     personallink = '<a href="https://www.facebook.com/psuhag1" class="style-none" target="_blank">facebook</a> | <a href="https://twitter.com/p4suhag" class="style-none" target="_blank">twitter</a> | <a href="https://github.com/p4suhag" class="style-none" target="_blank">github</a> | <a href="mailto:p4suhag@gmail.com" class="style-none">email</a><span>Dial - 9821063260</span>',
-    personallinkimg = '<a href="https://www.facebook.com/psuhag1"><img src="images/fb.svg"><a href="https://twitter.com/p4suhag"><img src="images/twtr.svg"></a><a href="https://github.com/p4suhag"><img src="images/github.svg"></a><a href="mailto:p4suhag@gmail.com"><img src="images/mail.svg"></a><a href="tel:+91-9821063260"><img src="images/phone.svg" class="phone-icon" style="padding: 5.5px; margin-right: 0;"></a><a class="phone-no">+91-9821063260</a>';
+    personallinkimg = '<a href="https://www.facebook.com/psuhag1"><img src="images/fb.svg"><a href="https://twitter.com/p4suhag"><img src="images/twtr.svg"></a><a href="https://github.com/p4suhag"><img src="images/github.svg"></a><a href="mailto:p4suhag@gmail.com"><img src="images/mail.svg"></a><a href="tel:+91-9821063260" class="phone-icon-box"><img src="images/phone.svg" class="phone-icon" style="padding: 5.5px; margin-right: 0;"></a><a class="phone-no">+91-9821063260</a>';
 
 $('.js-connect-bar').click(function() {
     $('.js-home-desc-about').animate({
