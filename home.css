@@ -392,6 +392,9 @@ li {
     padding-left: 15px;
     visibility: hidden;
 }
+.phone-no, .phone-icon {
+    cursor: pointer;
+}
 .phone-no:hover {
     visibility: visible;
 }
