@@ -31,15 +31,7 @@ $('.js-home-bar').click(function() {
     }, 800);
 });
 
-// $('.js-home-bar').click(function() {
-//     $('.js-connect').animate({
-//         // box-shadow: -2px 0px 2px 0 rgba(10, 10, 10, 0.1),
-//         left: '100%'
-//     }, 1000);
-//     $('.home-gallery').animate({
-//         opacity: '1'
-//     },1800);
-// });
+
 $('.js-work-bar').click(function() {
     $('.js-work-page').css('visibility', 'visible');
     $('.js-geek-about').animate({
@@ -92,6 +84,15 @@ $('.js-work-page').scroll(function(){
             left: '0',
             opacity: '1'
         },1100);
-    }
-    
+    }   
 }) 
+
+document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    if (evt.keyCode === 27) {
+        $('.js-work-page').css('visibility', 'hidden');
+    }
+};
+
+
+
