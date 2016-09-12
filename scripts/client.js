@@ -10,7 +10,7 @@ $('.js-connect-bar').click(function() {
     }, 700);
     setTimeout(function() {
         $('.title-name').text('Say Hello!');
-        $('.font-big').text("If you think I am suitable for your project or if you'd just like to say hello, feel free to get in touch.");
+        $('.font-big').html("Feel free to get in touch, whether you simply want to say hello or are in search of something specific! I'm always interested in working on new projects.<br>Let's build something amazing together.");
         $('.resume-link').html(personallinkimg);
     },700);
     $('.js-home-desc-about').animate({
