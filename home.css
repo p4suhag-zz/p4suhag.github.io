@@ -440,7 +440,13 @@ li {
         font-size: 1em;
     }
 }
-
+@media  screen and (max-width: 500px) {
+    
+    .phone-no {
+        top: 20px;
+        padding-left: 50px;
+    }
+}
 
 
 
