@@ -290,7 +290,7 @@ li {
 
 .project-about {
     width: 55%;
-    margin: 55% auto;
+    margin: 55% auto 0;
     opacity: 0;
     position: relative;
     top: 250px;
@@ -316,7 +316,8 @@ li {
 }
 
 .project-coverpic {
-    width: 100%;
+    height: 100%;
+    display: table;
     position: relative;
     left: 80%;
     opacity: 0;
@@ -333,22 +334,28 @@ li {
 
 .project-coverpic img {
     width: 100%;
-    margin: 18% auto;
+    margin: 27% auto 0 auto;
 }
 
 .geekfunnel-subcontainer {
-    margin: 90px 11% 0;
+    width: 100%;
+    margin: 15% 11% 17%;
 }
-
+.tb-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.subcont-height {
+    height: 70%;
+}
 .geekfunnel-subcontainer p {
     position: relative;
-    top: 100px;
     padding: 15px;
 }
 
 .geekfunnel-pic {
     max-width: 550px;
-    margin-bottom: 150px;
+    display: table;
     position: relative;
     left: 300px;
     opacity: 0;
@@ -357,13 +364,14 @@ li {
 
 .geekfunnel-pic img {
     width: 100%;
-    height: 400px;
 }
 
 .geeksubinfo {
     position: relative;
     left: -300px;
     opacity: 0;
+    max-width: 300px;
+    margin: auto;
 }
 
 .resume-link img {
