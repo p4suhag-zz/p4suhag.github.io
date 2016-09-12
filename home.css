@@ -273,6 +273,9 @@ li {
     width: 90%;
     margin: auto;
 }
+.weaponx-container {
+    margin-bottom: 50px;
+}
 
 .digit-number {
     font-size: 700%;
