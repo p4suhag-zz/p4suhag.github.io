@@ -3,6 +3,342 @@
 	{
 		"selected_items":
 		[
+			[
+				"Ca",
+				"Carddiet"
+			],
+			[
+				"app",
+				"appHistory"
+			],
+			[
+				"Re",
+				"Redirect"
+			],
+			[
+				"Rou",
+				"Router"
+			],
+			[
+				"dev",
+				"devServerConfig"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"card",
+				"card__button"
+			],
+			[
+				"My",
+				"MyDietItem"
+			],
+			[
+				"rec",
+				"recipeid"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pure",
+				"pure-u-lg-1-3"
+			],
+			[
+				"pure-u",
+				"pure-u-md-1-3"
+			],
+			[
+				"on",
+				"onClick"
+			],
+			[
+				"show",
+				"show_uploadpopup"
+			],
+			[
+				"uplo",
+				"upload_popup"
+			],
+			[
+				"file",
+				"fileupload"
+			],
+			[
+				"uploa",
+				"upload_preview"
+			],
+			[
+				"trasla",
+				"translateY"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"sto",
+				"storagebar"
+			],
+			[
+				"storag",
+				"storageused"
+			],
+			[
+				"Project",
+				"Projectname"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"table",
+				"table"
+			],
+			[
+				"Use",
+				"Usermenu"
+			],
+			[
+				"bacgr",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"Pro",
+				"Projectcontainer"
+			],
+			[
+				"dash",
+				"Dashboardproject"
+			],
+			[
+				"das",
+				"Dashboardproject"
+			],
+			[
+				"react",
+				"React"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"html",
+				"htmlboiler\thtmlboiler"
+			],
+			[
+				"cost",
+				"cost-minimal"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"total",
+				"totalrooms"
+			],
+			[
+				"ch",
+				"changeme"
+			],
+			[
+				"livi",
+				"livingroomtotal"
+			],
+			[
+				"bath",
+				"bathroomtotal"
+			],
+			[
+				"kitche",
+				"kitchentotal"
+			],
+			[
+				"bedr",
+				"bedroomtotal"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"se",
+				"secondarray"
+			],
+			[
+				"buyday",
+				"buydayis"
+			],
+			[
+				"sell",
+				"selldayis"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"home",
+				"home-featuredlooks__lookbox"
+			],
+			[
+				"servi",
+				"servicespage__theirservices"
+			],
+			[
+				"abou",
+				"aboutpage__teamhomezop__team__member"
+			],
+			[
+				"home-sli",
+				"home-sliderbox__content__heading"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"boredr",
+				"border-radius"
+			],
+			[
+				"featured",
+				"featuredlooks-container__lookcontainer__image"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"consu",
+				"consultpage__homezopway__weoffer__contentfirst"
+			],
+			[
+				"fo",
+				"fontSize--jumbo"
+			],
+			[
+				"consul",
+				"consultpage__homezopway__weoffer__contentsecond"
+			],
+			[
+				"cons",
+				"consultpage__homezopway__weoffer__contentfirst"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"con",
+				"consultpage__userviews__second"
+			],
+			[
+				"consult",
+				"consultpage__userviews__first"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"ini",
+				"inline"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"home-",
+				"home-creativedisplay"
+			],
+			[
+				"color",
+				"color__background"
+			],
+			[
+				"text",
+				"text-align-last"
+			],
+			[
+				"conta",
+				"container-fluid"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"meta",
+				"metabar__nav"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
 		]
 	},
 	"buffers":
@@ -15,16 +351,24 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 367.0,
-		"last_filter": "Package Control: ",
+		"height": 354.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 485.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -49,12 +393,138 @@
 	],
 	"file_history":
 	[
-		"/Users/parveensuhag/Jarvis/Workstation/BloodyBitch/bloodybitch.sublime-project",
-		"/Users/parveensuhag/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/app/components/cardscontainer/cardscontainer.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/.gitignore",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/assets/styles/views/Navbar.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/assets/styles/base/variable.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/assets/styles/views/card.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/package.json",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/app/components/cardscontainer/mydiet/mydietview.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/app/components/cardscontainer/mydiet/Mydiet.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/app/components/notfound/Notfound.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/app/components/cardscontainer/card/Card.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/app/components/cardscontainer/card/cardview.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/app/index.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/assets/styles/base/base.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/tasks/webpack.js",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/index.html",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/assets/styles/index.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/.build/css/index.css",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/app/data/recipe.js",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/gabru.sublime-project",
+		"/Users/parveensuhag/Library/Application Support/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/assets/styles/base/grid.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/assets/data/recipe.json",
+		"/Users/parveensuhag/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/parveensuhag/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/parveensuhag/Jarvis/Workstation/Open Source/gabru/index.html",
+		"/Users/parveensuhag/Jarvis/Workstation/Open Source/gabru/assets/styles/index.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/Open Source/gabru/assets/styles/base/base.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/Open Source/gabru/app/components/footer/footer.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/Open Source/gabru/tasks/assets.js",
+		"/Users/parveensuhag/Jarvis/Workstation/Open Source/gabru/gabru.sublime-project",
+		"/Users/parveensuhag/Jarvis/Workstation/Open Source/gabru/gulpfile.js",
+		"/Users/parveensuhag/Desktop/response.json",
+		"/Users/parveensuhag/Jarvis/Workstation/Open Source/gabru/package.json",
+		"/Users/parveensuhag/Jarvis/Workstation/Open Source/gabru/.babelrc",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/dashboardproject/project.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/dashboardproject/dashboardproject.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/assets/styles/index.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/dashboardproject/projecthead.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/dashboardproject/projectname.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/dashboardproject/progressbar.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/index.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/index.html",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/navbar/icon.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/footer/footerlist.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/navbar/userimage.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/navbar/navlist.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/.build/css/index.css",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/assets/styles/index.css",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/tasks/assets.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/footer/footer.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/dashboardproject/projectscontainer.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/navbar/navbar.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/navbar/usermenu.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/app/components/test.jsx",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/tasks/webpack.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/gulpfile.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/.gitignore",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/.babelrc",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/.eslintrc",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/.editorconfig",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/package.json",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/tasks/watch.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/tasks/lint.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/tasks/clean.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/dashboard-ui/config/assets.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/muffler/tasks/webpack.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/muffler/tasks/assets.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/muffler/gulpfile.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/muffler/index.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/muffler/tasks/lint.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/muffler/tasks/revision.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/muffler/tasks/watch.js",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/muffler/index.html",
+		"/Users/parveensuhag/Jarvis/Workstation/cloudboost/muffler/.eslintrc",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/scripts/costcalculator.js",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/controllers/pages/home.js",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/costcalculatorcustomize.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/costcalculator.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/helpers/times.js",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/routes/pages.js",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/app/costcalculator.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/tasks/webpack.js",
+		"/Users/parveensuhag/Desktop/Archive/State Bank of India.htm",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/homepage.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/app/home.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/scripts/home.js",
+		"/Users/parveensuhag/Desktop/sample.js",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/designconsultation.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/app/designconsultation.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/partials/howitwork.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/partials/howitwork.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/partials/featuredlooks.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/partials/featuredlooks.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/app/services.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/services.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/index.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/partials/howitwork.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/images/videoplayicon.svg",
+		"/Users/parveensuhag/Jarvis/Workstation/nightgappler/app/controllers/pages/home.js",
+		"/Users/parveensuhag/Jarvis/Workstation/nightgappler/app/templates/homepage.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/nightgappler/app/templates/layouts/default.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/nightgappler/app/models/clubguide.js",
+		"/Users/parveensuhag/Jarvis/Workstation/nightgappler/assets/styles/views/home.scss",
+		"/Users/parveensuhag/Desktop/nightgappler/config/config.js",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/privacy.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/app/privacy.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/app/terms.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/terms.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/partials/footer.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/app/about.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/about.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/layouts/default.hbs",
+		"/Users/parveensuhag/Desktop/react-15.0.1/helloworld.html",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/scripts/index.js",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/scripts/components/youtubeapi.js",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/.eslintrc",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/partials/footer.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/looks.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/controllers/admin/pages.js",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/designconsultation.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/costcalculator.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/advice.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/advice.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/partials/becomepartner.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/singlelook.hbs",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/becomepartner.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/costguide.scss",
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/costguide.hbs"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -68,6 +538,80 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hashHistory",
+			"g",
+			"amount",
+			"percent",
+			"p",
+			"percent",
+			"this",
+			"amount",
+			"this.props.nutrition.calories.amount",
+			"pure-u-1-3 pure-u-md-1-3 pure-u-lg-1-3",
+			"input",
+			"25px",
+			"60px",
+			"blue",
+			"background-color",
+			"\"",
+			"20px",
+			"30px",
+			"∂",
+			"25px",
+			"30px",
+			"Projectscontainer",
+			"Projecthead",
+			"ul",
+			"\"",
+			"text",
+			"ceiling",
+			"Ceiling",
+			"ceiling",
+			"floor",
+			"Flooring",
+			"flooring",
+			"floor",
+			"Flooring",
+			"flooring",
+			"bathroom",
+			"kitchen",
+			"changeme",
+			"total",
+			"changeme",
+			"bedroomtotal",
+			"modifyBedroom",
+			"bedroom",
+			"arrayfirst",
+			"selldayis",
+			"termspage",
+			"Terms",
+			"terms",
+			"h1",
+			"About",
+			"about",
+			"200px",
+			"costcalculator",
+			"designconsultation",
+			"eview",
+			"first",
+			"advice",
+			"advicepage",
+			"home",
+			"bookus",
+			"costguidepage",
+			"costguide",
+			"costguidepage",
+			"services",
+			"servicespage",
+			"staticimage",
+			"ookspage",
+			"Started",
+			"Let",
+			"h3",
+			"<img src=\"/images/videoicon.svg\">\n                <p>Feature</p>\n                <p>Lorem Ipsum</p>",
+			"                <a href=\"\" class=\"button button--primary\">Get Started</a>\n",
+			"ravisuhag",
+			"jolly"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -92,11 +636,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 70.0
 	},
 	"layout":
 	{
@@ -121,6 +665,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -129,7 +677,7 @@
 	"project": "portfolio.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -149,7 +697,7 @@
 		[
 			[
 				"",
-				"~/Jarvis/Workstation/geekfunnel/geekfunnel.sublime-project"
+				"~/Jarvis/Workstation/Open Source/gabru/gabru.sublime-workspace"
 			]
 		],
 		"width": 380.0
@@ -171,7 +719,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 144.0,
+	"side_bar_width": 208.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

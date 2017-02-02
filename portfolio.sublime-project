@@ -2,17 +2,6 @@
 	"folders":
 	[
 		{
-			"path": "Users/parveensuhag/Jarvis/Workstation/p4suhag.github.io"
-		},
-		{
-			"file_exclude_pattern":
-			[
-				"portfolio.sublime-project"
-			],
-			"folder_exclude_pattern":
-			[
-				"node_modules"
-			],
 			"path": "."
 		}
 	]
