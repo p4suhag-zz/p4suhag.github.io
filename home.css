@@ -11,7 +11,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #FFF;
-    font-family: Slabo\ 27px,serif;
+    font-family: Slabo\ 27px, serif;
     font-size: 16px;
 }
 
@@ -26,10 +26,12 @@ body {
 .red-color {
     color: #FF3366;
 }
+
 .style-none {
     text-decoration: none;
     color: #000;
 }
+
 .home-page {
     width: 100%;
     height: 100%;
@@ -47,11 +49,13 @@ body {
     z-index: 1;
     height: 60px;
 }
+
 .navbar ul {
-  padding-left: 15%;
-  margin-top: 30px;
-  font-family: 'PT Sans', sans-serif;
+    padding-left: 15%;
+    margin-top: 30px;
+    font-family: 'PT Sans', sans-serif;
 }
+
 .inline-me {
     display: inline-block;
 }
@@ -77,9 +81,15 @@ li {
     vertical-align: middle;
     padding: 0 15% 70px;
 }
-.title-name, .font-big, .resume-link{
-  margin: 35px 0;
+
+.title-name,
+.font-big {
+    margin: 35px 0;
 }
+.font-big {
+    margin-bottom: 70px;
+}
+
 .title-name {
     font-size: 2em;
     font-weight: 600;
@@ -90,18 +100,26 @@ li {
 
 .font-big {
     line-height: 1.75em;
-        font-size: 1em;
-        /* font-weight: 600; */
-        color: #000;
-        letter-spacing: 1px;
-        word-spacing: 1px;
+    font-size: 1em;
+    /* font-weight: 600; */
+    color: #000;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
-.resume-link {
-  font-family: 'PT Sans', sans-serif;
-  margin-top: 100px;
-  letter-spacing: 1px;
+.resume-link,
+.contact-link {
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px;
+    margin: 25px 0;
 }
+
+.contact-link-sub {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
 .home-gallery {
     width: 30%;
     height: 100%;
@@ -239,12 +257,15 @@ li {
     text-align: justify;
     visibility: hidden;
 }
+
 .work-page p {
-  font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
+
 .work-page a {
     color: #551A8B;
 }
+
 .close-button {
     position: fixed;
     top: 20px;
@@ -269,12 +290,23 @@ li {
 }
 
 .geekfunnel-container,
+.homezop-container,
+.gabru-container,
 .weaponx-container {
     width: 90%;
     margin: auto;
+    margin-bottom: 80px;
 }
-.weaponx-container {
-    margin-bottom: 50px;
+
+.geekfunnel-container {
+    margin-bottom: 40px;
+}
+
+.project-name {
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 0.55em;
+    color: rgba(0, 0, 0, 0.12);
 }
 
 .digit-number {
@@ -283,7 +315,7 @@ li {
     position: absolute;
     left: 5%;
     color: rgba(0, 0, 0, 0.04);
-    font-family: Slabo\ 27px,serif;
+    font-family: Slabo\ 27px, serif;
 }
 
 .image-shadow img {
@@ -344,13 +376,16 @@ li {
     width: 100%;
     margin: 15% 11% 17%;
 }
+
 .tb-cell {
     display: table-cell;
     vertical-align: middle;
 }
+
 .subcont-height {
     height: 70%;
 }
+
 .geekfunnel-subcontainer p {
     position: relative;
     padding: 15px;
@@ -382,28 +417,44 @@ li {
     width: 25px;
     margin-right: 20px;
 }
+
+.contact-link img {
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    position: relative;
+    top: 8px;
+}
+
 .resume-link span {
     float: right;
     margin-right: 25px;
 }
+
 .phone-no {
     position: relative;
     top: -7.5px;
     padding-left: 15px;
     visibility: hidden;
 }
-.phone-no, .phone-icon {
+
+.phone-no,
+.phone-icon {
     cursor: pointer;
 }
+
 .phone-no:hover {
     visibility: visible;
 }
-.phone-icon-box:hover + .phone-no{
+
+.phone-icon-box:hover + .phone-no {
     visibility: visible;
 }
 
+
 /*------[ code for responsiveness ]---------*/
-@media  screen and (max-width: 700px) {
+
+@media screen and (max-width: 700px) {
     .home-gallery {
         width: 100%;
         height: 50%;
@@ -424,8 +475,8 @@ li {
         padding: 0 15%;
     }
 }
-@media  screen and (max-width: 700px) {
-    
+
+@media screen and (max-width: 700px) {
     .navbar li {
         margin: 0 20px;
     }
@@ -436,23 +487,29 @@ li {
         margin-top: 50px;
     }
 }
-@media  screen and (max-width: 700px) {
-    
+
+@media screen and (max-width: 700px) {
     .navbar li {
         margin: 0 10px;
         font-size: 1em;
     }
 }
-@media  screen and (max-width: 500px) {
-    
+
+@media screen and (max-width: 500px) {
     .phone-no {
         top: 20px;
         padding-left: 50px;
     }
+    .digit-number {
+        font-size: 500%;
+    }
+    .project-name {
+        position: relative;
+        top: -40px;
+    }
+    .mobile-fix {
+        position: relative;
+        top: 30px;
+        left: -30px;
+    }
 }
-
-
-
-
-
-

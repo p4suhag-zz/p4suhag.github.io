@@ -2,6 +2,10 @@
 	"folders":
 	[
 		{
+			"file_exclude_patterns":
+			[
+				"portfolio.sublime-project"
+			],
 			"path": "."
 		}
 	]

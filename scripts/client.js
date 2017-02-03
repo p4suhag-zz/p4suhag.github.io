@@ -1,8 +1,10 @@
 var hometitlename = $('.title-name').html(),
     aboutdesc = $('.font-big').html(),
     resumelink = $('.resume-link').html(),
-    personallink = '<a href="https://www.facebook.com/psuhag1" class="style-none" target="_blank">facebook</a> | <a href="https://twitter.com/p4suhag" class="style-none" target="_blank">twitter</a> | <a href="https://github.com/p4suhag" class="style-none" target="_blank">github</a> | <a href="mailto:p4suhag@gmail.com" class="style-none">email</a><span>Dial - 9821063260</span>',
-    personallinkimg = '<a href="https://www.facebook.com/psuhag1"><img src="images/fb.svg"><a href="https://twitter.com/p4suhag"><img src="images/twtr.svg"></a><a href="https://github.com/p4suhag"><img src="images/github.svg"></a><a href="mailto:p4suhag@gmail.com"><img src="images/mail.svg"></a><a href="tel:+91-9821063260" class="phone-icon-box"><img src="images/phone.svg" class="phone-icon" style="padding: 5.5px; margin-right: 0;"></a><a class="phone-no">+91-9821063260</a>';
+    contactlink = $('.contact-link').html(),
+    contactlinkimg = '<a href="mailto:p4suhag@gmail.com" class="contact-link-sub"><img src="images/mail.svg">p4suhag@gmail.com</a><a href="tel:+91-9821063260" class="contact-link-sub phone-icon-box"><img src="images/phone.svg" class="phone-icon" style="padding: 5.5px;">+91-9821063260</a>',
+    personallink = '<a href="https://www.facebook.com/psuhag1" class="style-none" target="_blank">facebook</a> | <a href="https://twitter.com/p4suhag" class="style-none" target="_blank">twitter</a> | <a href="https://github.com/p4suhag" class="style-none" target="_blank">github</a>',
+    personallinkimg = '<a href="https://www.facebook.com/psuhag1"><img src="images/fb.svg"><a href="https://twitter.com/p4suhag"><img src="images/twtr.svg"></a><a href="https://github.com/p4suhag"><img src="images/github.svg"></a>';
 
 $('.js-connect-bar').click(function() {
     $('.js-home-desc-about').animate({
@@ -11,6 +13,7 @@ $('.js-connect-bar').click(function() {
     setTimeout(function() {
         $('.title-name').text('Say Hello!');
         $('.font-big').html("Feel free to get in touch, whether you simply want to say hello or are in search of something specific! I'm always interested in working on new projects.<br>Let's build something amazing together.");
+        $('.contact-link').html(contactlinkimg);
         $('.resume-link').html(personallinkimg);
     },700);
     $('.js-home-desc-about').animate({
@@ -24,6 +27,7 @@ $('.js-home-bar').click(function() {
     setTimeout(function() {
         $('.title-name').text(hometitlename);
         $('.font-big').text(aboutdesc);
+        $('.contact-link').html(contactlink);
         $('.resume-link').html(resumelink);
     },700);
     $('.js-home-desc-about').animate({
@@ -50,6 +54,8 @@ $('.js-close-button').click(function() {
 $('.js-work-page').scroll(function(){
    var pageScroll = $('.js-work-page').scrollTop(),
        geeksubposition = $('.js-geekfunnel-coverpic').offset().top,
+       homezopsubposition = $('.homezop-container').offset().top,
+       gabrusubposition = $('.gabru-container').offset().top,
        weaponxsubposition = $('.weaponx-container').offset().top;
 
     
@@ -74,6 +80,26 @@ $('.js-work-page').scroll(function(){
             opacity: '1',
             left: '0'
         },1500);
+    }
+    if (pageScroll >= homezopsubposition + 700) {
+        $('.js-homezop-about').animate({
+            opacity: '1',
+            top: '0'
+        },1100);
+        $('.js-homezop-coverpic').animate({
+            left: '0',
+            opacity: '1'
+        },1100);
+    }
+    if (pageScroll >= gabrusubposition + 700) {
+        $('.js-gabru-about').animate({
+            opacity: '1',
+            top: '0'
+        },1100);
+        $('.js-gabru-coverpic').animate({
+            left: '0',
+            opacity: '1'
+        },1100);
     }
     if (pageScroll >= weaponxsubposition + 700) {
         $('.js-weaponx-about').animate({
