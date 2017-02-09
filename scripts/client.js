@@ -55,6 +55,7 @@ $('.js-work-page').scroll(function(){
    var pageScroll = $('.js-work-page').scrollTop(),
        geeksubposition = $('.js-geekfunnel-coverpic').offset().top,
        homezopsubposition = $('.homezop-container').offset().top,
+       gabrusubposition = $('.gabru-container').offset().top,
        roltosubposition = $('.rolto-container').offset().top,
        weaponxsubposition = $('.weaponx-container').offset().top;
 
@@ -91,7 +92,17 @@ $('.js-work-page').scroll(function(){
             opacity: '1'
         },1100);
     }
-    if (pageScroll >= roltosubposition + 700) {
+    if (pageScroll >= gabrusubposition + 1000) {
+        $('.js-gabru-about').animate({
+            opacity: '1',
+            top: '0'
+        },1100);
+        $('.js-gabru-coverpic').animate({
+            left: '0',
+            opacity: '1'
+        },1100);
+    }
+    if (pageScroll >= roltosubposition + 1000) {
         $('.js-rolto-about').animate({
             opacity: '1',
             top: '0'
@@ -101,7 +112,7 @@ $('.js-work-page').scroll(function(){
             opacity: '1'
         },1100);
     }
-    if (pageScroll >= weaponxsubposition + 700) {
+    if (pageScroll >= weaponxsubposition + 1000) {
         $('.js-weaponx-about').animate({
             opacity: '1',
             top: '0'

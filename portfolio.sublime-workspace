@@ -343,33 +343,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 10272,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scripts/client.js",
-			"settings":
-			{
-				"buffer_size": 4280,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "home.css",
-			"settings":
-			{
-				"buffer_size": 8035,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -420,6 +393,9 @@
 	],
 	"file_history":
 	[
+		"/Users/parveensuhag/Jarvis/Workstation/p4suhag.github.io/home.css",
+		"/Users/parveensuhag/Jarvis/Workstation/p4suhag.github.io/scripts/client.js",
+		"/Users/parveensuhag/Jarvis/Workstation/p4suhag.github.io/index.html",
 		"/Users/parveensuhag/Jarvis/Workstation/p4suhag.github.io/portfolio.sublime-project",
 		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/app/components/cardscontainer/cardscontainer.jsx",
 		"/Users/parveensuhag/Jarvis/Workstation/opensource/gabru/.gitignore",
@@ -544,10 +520,7 @@
 		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/costcalculator.scss",
 		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/advice.scss",
 		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/advice.hbs",
-		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/partials/becomepartner.hbs",
-		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/singlelook.hbs",
-		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/becomepartner.scss",
-		"/Users/parveensuhag/Jarvis/Workstation/homezop/assets/styles/views/costguide.scss"
+		"/Users/parveensuhag/Jarvis/Workstation/homezop/app/templates/partials/becomepartner.hbs"
 	],
 	"find":
 	{
@@ -565,6 +538,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gabru",
 			"resume",
 			"homezop",
 			"weaponx",
@@ -659,138 +633,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10272,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5942,
-								5942
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scripts/client.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1851,
-								1851
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "home.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8035,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1235,
-								1235
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 12080.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -864,7 +713,7 @@
 		[
 			[
 				"",
-				"~/Jarvis/Workstation/opensource/gabru/gabru.sublime-project"
+				"~/Jarvis/Workstation/p4suhag.github.io/portfolio.sublime-project"
 			]
 		],
 		"width": 380.0
